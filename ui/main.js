@@ -1,8 +1,5 @@
-console.log('Loaded!');
-
-var element =document.getElementById('main-txt');
-element.innerHTML='new value';
-var img=document.getElementById('pic');
-img.onclick=function(){
-    img.style.marginLeft='100px';
+var button =document.getElementById('counter');
+var counter=0;
+button.onclick=function(){
+    counter=counter+1;
 };
